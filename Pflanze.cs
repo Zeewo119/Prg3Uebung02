@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Prg3Uebung02
 {
-    abstract class Pflanze
+    public abstract class Pflanze
     {
 
         protected String name;
@@ -21,7 +21,7 @@ namespace Prg3Uebung02
         protected const int Orange = 4;
         protected const int Gruen = 5;
 
-        protected Pflanze(String name, int hoehe, int bodenart)
+        public Pflanze(String name, int hoehe, int bodenart)
         {
             this.name = name;
             this.hoehe = hoehe;

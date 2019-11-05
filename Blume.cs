@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Prg3Uebung02
 {
-    class Blume: Pflanze
+    public class Blume: Pflanze
     {
 
         private int farbe;
-        Blume(String name, int hoehe, int bodenart,int farbe): base(name, hoehe, bodenart)
+        public Blume(String name, int hoehe, int bodenart,int farbe): base(name, hoehe, bodenart)
         {
             if (farbe == Gruen)
             {
